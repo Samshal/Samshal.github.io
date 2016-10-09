@@ -133,11 +133,11 @@ td > a > span, #reputation-button  {
      margin: 0px auto;
      position: relative;
      z-index: 10;
-     width: 90% !important;
+     width: 100% !important;
 }
 #PageContent {
      margin:0px auto;
-     width: 100% !important;
+     width: 97% !important;
      position: relative;
      text-align: left;
 }
