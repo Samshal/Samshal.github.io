@@ -1,0 +1,26 @@
+.menutext { 
+}
+menutext p {
+	margin: 0px;
+	padding: 5px 0px 10px;
+}
+.menulink {
+	margin: 0px;
+	font-size: 16px;
+	padding: 0px 0px 5px;
+}
+.menulink a {
+	font-size: 16px;
+	text-decoration: none;
+}
+.menudescription {
+	margin: 0.5ex;
+}
+.menuicon {
+	padding-bottom: 2ex;
+	vertical-align: top;
+	text-align: center;
+}
+.menuicon img {
+	margin: 0 10px 0 0;
+}
