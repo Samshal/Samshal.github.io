@@ -456,7 +456,7 @@ td > a > span, #reputation-button  {
 
 .InfoContent .nblu, .InfoContent .nbld {
      /*background-image: url("http://files.phpclasses.org/graphics/phpclasses/menu_bg.jpg");*/
-     background-color: #0578C2;
+     background-color: #587B9E;
      color: #FFFFFF;
 }
 
@@ -465,7 +465,7 @@ td > a > span, #reputation-button  {
 }
 
 .InfoContent .nbgu {
-     border-bottom: 2px solid #92CCF7;
+     /*border-bottom: 2px solid #92CCF7;*/
      color: #0666AB;
      margin: 1px;
      padding: 0px;
@@ -518,8 +518,26 @@ td > a > span, #reputation-button  {
      padding-left: 5px;
 }
 
+.photo {
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+}
+
+
+.userInfoTable {
+     border: 1px solid #f6f6f6;
+     margin-left: 10px;
+     padding: 20px;
+}
+
+td > b > h2 {
+     margin-bottom: -1px;
+}
+
+
 .even td, .odd td, .even th, .odd th {
-     border-bottom: 3px dotted #CCCCCC;
+     border-bottom: 1px dotted #CCCCCC;
      color: #444444;
 }
 
@@ -559,8 +577,8 @@ td > a > span, #reputation-button  {
 .odd {
 }
 
-.even td, .odd td, .highlight td, .highlight th, .featuredeven td, .featuredodd td {
-     border-bottom: 1px solid #CCCCCC;
+.even td, .odd td, .highlight td, .highlight th, .featuredeven td, .featuredodd td {/*
+     border-bottom: 1px solid #CCCCCC;*/
      padding: 5px;
 }
 

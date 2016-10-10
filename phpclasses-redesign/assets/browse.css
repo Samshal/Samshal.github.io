@@ -1,0 +1,23 @@
+.classeslink {
+	margin: 0px;
+}
+.classesdescription {
+	margin-top: 1ex;
+	margin-bottom: 2ex;
+}
+.author-picture-user-name {
+	display: none;
+}
+.author-details {
+	display: table-cell;
+}
+@media (max-width: 1024px) {
+.author-picture-user-name {
+	display: block;
+}
+}
+@media (max-width: 499px) {
+.author-details {
+	display: none;
+}
+}
