@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans'
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 
 *, .normal-size {
      font-size: 1rem;
@@ -7,7 +7,7 @@
 html, body {
      background: url("http://files.phpclasses.org/graphics/phpclasses/background.jpg") repeat-x scroll center 36px #97DFEE;
      color: black;
-     font-family: 'Open Sans', sans-serif, arial, helvetica;
+     font-family: 'Roboto', sans-serif, arial, helvetica;
      height: 100%;
      margin: 0px;
 }
@@ -35,6 +35,22 @@ a:hover {
 
 .clear {
      clear: both;
+}
+
+input[type="text"] {
+     border: none;
+     outline: none;
+     color: #333;
+     backgroundnd: #ffe;
+     z-index: 90;
+     font-size: 1em;
+     font-family: 'icomoon';
+     speak: none;
+     font-style: normal;
+     font-weight: normal;
+     font-variant: normal;
+     text-transform: none;
+     -webkit-font-smoothing: antialiased;
 }
 
 img {
@@ -568,7 +584,6 @@ td > b > h2 {
 
 .light {
      background: none repeat scroll 0% 0% #F6F6F6;
-     padding: 10px !important;
 }
 
 .dark {
@@ -577,13 +592,12 @@ td > b > h2 {
 
 .c799 > tbody > tr {
      padding: 10px !important;
-     height: 50px;
 }
+
 .odd {
 }
 
-.even td, .odd td, .highlight td, .highlight th, .featuredeven td, .featuredodd td {/*
-     border-bottom: 1px solid #CCCCCC;*/
+.even td, .odd td, .highlight td, .highlight th, .featuredeven td, .featuredodd td {
      padding: 5px;
 }
 
@@ -878,7 +892,7 @@ a:hover .highlightScore {
 
 #Footer {
      /*background: url("http://files.phpclasses.org/graphics/phpclasses/footer_bg.jpg") repeat-x scroll 0px 0px #102841;*/
-     height: 90px;
+     height: 100;
      width: 100%;
      z-index: 1;
 }
@@ -890,6 +904,7 @@ a:hover .highlightScore {
      height: 80px;
      position: relative;
      width: 100%;
+     padding: 10px;
 }
 
 #endnavigation {
@@ -915,7 +930,7 @@ a:hover .highlightScore {
 
 #endnavigation a {
      color: #FFFFFF;
-     font-size: 12px;
+     font-size: 0.8em;
      font-weight: bold;
      padding: 0px 20px 0px 5px;
      text-decoration: none;
@@ -923,7 +938,6 @@ a:hover .highlightScore {
 }
 
 #endnavigation a:hover {
-     color: #95DDED;
      text-decoration: underline;
 }
 
@@ -932,12 +946,14 @@ a:hover .highlightScore {
 }
 
 #Copyright {
+     width: 95% !important;
      color: #FFFFFF;
-     font-size: 12px;
+     font-size: 0.5em !important;
      height: 20px;
      margin: 0px auto;
      padding: 10px 0px;
      text-align: left;
+     overflow: hidden !important;
 }
 
 #Copyright a {
@@ -951,21 +967,16 @@ a:hover .highlightScore {
 
 #Copyright table td {
      color: #FFFFFF;
-     padding: 0px 10px;
+     padding: 0px;
 }
 
 #FooterInfo tt {
-     font-family: arial,helvetica,sans-serif;
+     /*font-family: arial,helvetica,sans-serif;*/
 }
 
 #Top h1 {
      padding: 80px 0 0 35px;
      overflow: hidden;
-}
-@media (min-width: 1025px) {
-#Container {
-     width: 1025px;
-}
 }
 .search-input {
      vertical-align: top;
