@@ -391,12 +391,9 @@ td > a > span, #reputation-button  {
 
 .InfoContent .nblu, .InfoContent .nbtu {
      background-color: #c6f0fe;
-     background-image: linear-gradient(#e2f6ff, #c6f0fe);
-     border-color: #92DBEC;
-     border-style: solid solid none;
-     border-top-left-radius: 6px;
-     border-top-right-radius: 6px;
-     border-width: 1px 1px medium;
+     border-top-left-radius: 2px;
+     border-top-right-radius: 2px;
+     border-width: 1px;
      color: #0666AB;
      font-size: 12px;
      padding: 7px;
@@ -407,8 +404,6 @@ td > a > span, #reputation-button  {
 
 .InfoContent .ct {
      background-color: #F6F6F6;
-     border-top-left-radius: 6px;
-     border-top-right-radius: 6px;
      border-width: 1px 1px 0 1px;
      border-style: solid;
      border-color: #E1E1E1;
@@ -422,8 +417,6 @@ td > a > span, #reputation-button  {
 
 .InfoContent .cd {
      background-color: #F6F6F6;
-     border-bottom-left-radius: 6px;
-     border-bottom-right-radius: 6px;
      border-width: 0 1px 1px 1px;
      border-style: solid;
      border-color: #E1E1E1;
@@ -441,7 +434,7 @@ td > a > span, #reputation-button  {
 
 .InfoContent .nbtd:hover, .InfoContent .nbtu:hover {
      background-color: #bde5f2;
-     background-image: linear-gradient(#d7eaf2, #bde5f2);
+     /*background-image: linear-gradient(#d7eaf2, #bde5f2);*/
      text-decoration: underline;
      color: #2989C7;
 }
@@ -451,12 +444,8 @@ td > a > span, #reputation-button  {
 }
 
 .InfoContent .nbld, .InfoContent .nbtd {
-     background-image: url("http://files.phpclasses.org/graphics/phpclasses/tabsmenu_bg1.jpg");
-     border-bottom-left-radius: 6px;
-     border-bottom-right-radius: 6px;
+     /*background-image: url("http://files.phpclasses.org/graphics/phpclasses/tabsmenu_bg1.jpg");*/
      border-color: #92DBEC;
-     border-style: solid solid none;
-     border-width: 1px 1px medium;
      color: #0666AB;
      font-size: 12px;
      padding: 7px;
@@ -466,7 +455,8 @@ td > a > span, #reputation-button  {
 }
 
 .InfoContent .nblu, .InfoContent .nbld {
-     background-image: url("http://files.phpclasses.org/graphics/phpclasses/menu_bg.jpg");
+     /*background-image: url("http://files.phpclasses.org/graphics/phpclasses/menu_bg.jpg");*/
+     background-color: #0578C2;
      color: #FFFFFF;
 }
 
@@ -483,7 +473,6 @@ td > a > span, #reputation-button  {
 }
 
 .InfoContent .nbgd {
-     border-top: 2px solid #92CCF7;
      color: #0666AB;
      margin: 1px;
      padding: 0px;
