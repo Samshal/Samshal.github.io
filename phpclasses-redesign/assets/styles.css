@@ -568,12 +568,17 @@ td > b > h2 {
 
 .light {
      background: none repeat scroll 0% 0% #F6F6F6;
+     padding: 10px !important;
 }
 
 .dark {
      background: none repeat scroll 0% 0% #FBFBFB;
 }
 
+.c799 > tbody > tr {
+     padding: 10px !important;
+     height: 50px;
+}
 .odd {
 }
 
@@ -746,6 +751,13 @@ td > b > h2 {
 .framed {
      margin: 5px 0px;
      padding: 10px 15px;
+     width: 230px;
+}
+
+.c360 > a {
+     font-size: 13px;
+     display: block;
+     color: #587B9E;
 }
 
 .notifications {
