@@ -1,8 +1,4 @@
-@font-face {
-     font-family: 'SEGOEUIL';
-     src: url('./font/SEGOEUIL.eot');
-     src: local('SEGOEUIL'), url('./font/SEGOEUIL.woff') format('woff'), url('./font/SEGOEUIL.ttf') format('truetype');
-}
+@import 'https://fonts.googleapis.com/css?family=Open+Sans'
 
 *, .normal-size {
      font-size: 1rem;
@@ -11,7 +7,7 @@
 html, body {
      background: url("http://files.phpclasses.org/graphics/phpclasses/background.jpg") repeat-x scroll center 36px #97DFEE;
      color: black;
-     font-family: 'SEGOEUIL', sans-serif, arial, helvetica;
+     font-family: 'Open Sans', sans-serif, arial, helvetica;
      height: 100%;
      margin: 0px;
 }
