@@ -256,7 +256,7 @@ td > a > span, #reputation-button  {
 
 #logoPHP {
      /*background: url("http://files.phpclasses.org/graphics/phpclasses/elephpant_logo.png") no-repeat scroll center bottom transparent;*/
-     background-color: #FCFCFC;
+     background-color: #F6F6F6;
      float: left;
      height: 63px;
      left: 15px;
@@ -285,7 +285,7 @@ td > a > span, #reputation-button  {
 }
 
 #recommendpage {
-     background-color: #FCFCFC;
+     background-color: #F6F6F6;
      float: right;
      margin: 0px 35px 10px 0px;
      border-radius: 0px 0px 10px 10px;
@@ -318,7 +318,7 @@ td > a > span, #reputation-button  {
 }
 
 #navigation {
-     background-color: #F6F6F6;
+     background-color: #BEB8C5;
      clear: both;
      color: #000 !important;
      font-size: 1.2em;
@@ -419,7 +419,7 @@ td > a > span, #reputation-button  {
 }
 
 .InfoContent .ct {
-     background-color: #FCFCFC;
+     background-color: #F6F6F6;
      border-width: 1px 1px 0 1px;
      border-style: solid;
      border-color: #E1E1E1;
@@ -432,7 +432,7 @@ td > a > span, #reputation-button  {
 }
 
 .InfoContent .cd {
-     background-color: #FCFCFC;
+     background-color: #F6F6F6;
      border-width: 0 1px 1px 1px;
      border-style: solid;
      border-color: #E1E1E1;
@@ -583,7 +583,7 @@ td > b > h2 {
 }
 
 .light {
-     background: none repeat scroll 0% 0% #FCFCFC;
+     background: none repeat scroll 0% 0% #F6F6F6;
 }
 
 .dark {
@@ -654,7 +654,7 @@ td > b > h2 {
      white-space: -moz-pre-wrap;
      white-space: -hp-pre-wrap;
      word-wrap: break-word;
-     background: none repeat scroll 0% 0% #FCFCFC;
+     background: none repeat scroll 0% 0% #F6F6F6;
      padding: 4px;
 }
 
