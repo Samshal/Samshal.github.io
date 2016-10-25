@@ -5,7 +5,7 @@
 }
 
 html, body {
-     background: url("http://files.phpclasses.org/graphics/phpclasses/background.jpg") repeat-x scroll center 36px #97DFEE;
+     background: url("http://files.phpclasses.org/graphics/phpclasses/background.jpg") repeat-x scroll center 36px #4F5B93;
      color: black;
      font-family: 'Roboto', sans-serif, arial, helvetica;
      height: 100%;
@@ -13,12 +13,12 @@ html, body {
 }
 
 a:link, a:active {
-     color: #0578C2;
+     color: #699FDA;
      text-decoration: none;
 }
 
 a:visited {
-     color: #12314D;
+     color: #4F5B93;
 }
 
 a:hover {
@@ -41,7 +41,7 @@ input[type="text"] {
      border: none;
      outline: none;
      color: #333;
-     backgroundnd: #ffe;
+     background: #ffe;
      z-index: 90;
      font-size: 1em;
      font-family: 'icomoon';
@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-     color: #666666;
+     color: #4F5B93;
      padding-bottom: 0px;
      padding-top: 0px;
 }
@@ -76,20 +76,20 @@ h2, h2 a, h2 span {
 
 h3 {
      border-bottom: 3px dotted #CCCCCC;
-     color: #333333;
+     color: #4F5B93;
      font-size: 15px;
      margin: 10px 0px;
      padding: 10px 0px;
 }
 
 h4 {
-     color: #113452;
+     color: #4F5B93;
      font-size: 14px;
      font-weight: bold;
 }
 
 h5 {
-     color: #0578C2;
+     color: #4F5B93;
      font-size: 13px;
      font-weight: bold;
 }
@@ -170,7 +170,7 @@ td > a > span, #reputation-button  {
 }
 
 #user, #TopLine, #UserContent {
-     background-color: #34495E;
+     background-color: #4F5B93;
      height: 50px;
      line-height: 36px;
      width: 100%;
@@ -256,7 +256,7 @@ td > a > span, #reputation-button  {
 
 #logoPHP {
      /*background: url("http://files.phpclasses.org/graphics/phpclasses/elephpant_logo.png") no-repeat scroll center bottom transparent;*/
-     background-color: #F6F6F6;
+     background-color: #FCFCFC;
      float: left;
      height: 63px;
      left: 15px;
@@ -285,7 +285,7 @@ td > a > span, #reputation-button  {
 }
 
 #recommendpage {
-     background-color: #F6F6F6;
+     background-color: #FCFCFC;
      float: right;
      margin: 0px 35px 10px 0px;
      border-radius: 0px 0px 10px 10px;
@@ -318,9 +318,9 @@ td > a > span, #reputation-button  {
 }
 
 #navigation {
-     background-color: #2980b9;
+     background-color: #F6F6F6;
      clear: both;
-     color: #fff;
+     color: #000 !important;
      font-size: 1.2em;
      font-style: bold;
      height: 44px;
@@ -341,7 +341,7 @@ td > a > span, #reputation-button  {
 }
 
 #navigation td {
-     color: #C3F0FF;
+     /*color: #C3F0FF;*/
      font-size: 14px;
      font-weight: bold;
      padding-top: 9px;
@@ -354,7 +354,7 @@ td > a > span, #reputation-button  {
 }
 
 #navigation a {
-     color: #FFFFFF;
+     color: #000;
      font-weight: bold;
      text-decoration: none;
 }
@@ -410,7 +410,7 @@ td > a > span, #reputation-button  {
      border-top-left-radius: 2px;
      border-top-right-radius: 2px;
      border-width: 1px;
-     color: #0666AB;
+     color: #4F5B93;
      font-size: 12px;
      padding: 7px;
      text-align: center;
@@ -419,7 +419,7 @@ td > a > span, #reputation-button  {
 }
 
 .InfoContent .ct {
-     background-color: #F6F6F6;
+     background-color: #FCFCFC;
      border-width: 1px 1px 0 1px;
      border-style: solid;
      border-color: #E1E1E1;
@@ -432,7 +432,7 @@ td > a > span, #reputation-button  {
 }
 
 .InfoContent .cd {
-     background-color: #F6F6F6;
+     background-color: #FCFCFC;
      border-width: 0 1px 1px 1px;
      border-style: solid;
      border-color: #E1E1E1;
@@ -583,7 +583,7 @@ td > b > h2 {
 }
 
 .light {
-     background: none repeat scroll 0% 0% #F6F6F6;
+     background: none repeat scroll 0% 0% #FCFCFC;
 }
 
 .dark {
@@ -654,7 +654,7 @@ td > b > h2 {
      white-space: -moz-pre-wrap;
      white-space: -hp-pre-wrap;
      word-wrap: break-word;
-     background: none repeat scroll 0% 0% #F6F6F6;
+     background: none repeat scroll 0% 0% #FCFCFC;
      padding: 4px;
 }
 
@@ -900,7 +900,7 @@ a:hover .highlightScore {
 #FooterInfo {
      /*background: url("http://files.phpclasses.org/graphics/phpclasses/footer.jpg") no-repeat scroll center top #10263E;*/
 
-     background: #34495E;
+     background: #4F5B93;
      height: 80px;
      position: relative;
      width: 100%;
