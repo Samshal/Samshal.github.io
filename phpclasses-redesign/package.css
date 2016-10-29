@@ -1,0 +1,121 @@
+.package-cut-full-width,
+.package-cut-width-800,
+.package-cut-width-640,
+.package-cut-width-500 {
+	display: block;
+}
+.package-cell-cut-full-width,
+.package-cell-cut-width-800,
+.package-cell-cut-width-640,
+.package-cell-cut-width-500,
+.author-details,
+.tabbed-author-details {
+	display: table-cell;
+}
+.author-information-nominee {
+	display: inline-block;
+	float: right; 
+	width: 65%;
+}
+.author-information {
+	display: inline-block;
+	float: right; 
+	width: 50%;
+}
+.package-information-nominee {
+	display: inline-block;
+	float: left;
+	width: 35%;
+}
+.package-information {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+.picture-user-name {
+	display: none;
+}
+@media (max-width: 1024px) {
+.package-cut-full-width,
+.package-cell-cut-full-width {
+	display: none;
+}
+.author-details {
+	display: none;
+}
+.author-information-nominee {
+	width: 35%;
+}
+.author-information {
+	width: 20%;
+}
+.package-information-nominee {
+	width: 65%;
+}
+.package-information {
+	width: 80%;
+}
+.picture-user-name {
+	display: block;
+}
+}
+@media (max-width: 799px) {
+.package-cut-width-800,
+.package-cell-cut-width-800,
+.tabbed-author-details {
+	display: none;
+}
+}
+@media (max-width: 639px) {
+.package-cut-width-640,
+.package-cell-cut-width-640 {
+	display: none;
+}
+.package-show-width-640 {
+	display: block;
+}
+.package-cell-show-width-640 {
+	display: table-cell;
+}
+}
+@media (min-width: 640px) {
+.package-show-width-640,
+.package-cell-show-width-640 {
+	display: none;
+}
+}
+@media (max-width: 499px) {
+.package-cut-width-500,
+.package-cell-cut-width-500 {
+	display: none;
+}
+.author-information-nominee {
+	width: 35%;
+}
+.author-information {
+	width: 35%;
+}
+.package-information-nominee {
+	width: 65%;
+}
+.package-information {
+	width: 65%;
+}
+}
+#package-menu {
+	display: inline-block;
+	padding: 0;
+}
+
+#package-menu .menu-items {
+	display: none;
+}
+
+#package-button:checked + .menu-items {
+  display: inline-block;
+}
+
+#package-menu input[type="checkbox"], 
+#package-menu ul span.drop-icon {
+	display: none;
+}
