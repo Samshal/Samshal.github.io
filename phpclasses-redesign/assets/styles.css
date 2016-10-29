@@ -281,6 +281,7 @@ td > a > span, #reputation-button  {
 
 #recommendpage {
      background-color: #FCFCFC;
+     border: 1px solid #ccc;
      float: right;
      margin: 0px 300px 10px 0px;
      border-radius: 0px 0px 10px 10px;
@@ -311,7 +312,7 @@ td > a > span, #reputation-button  {
 }
 
 #navigation {
-     background-color: #FCFCFF;
+     background-color: #CCF;
      clear: both;
      color: #000 !important;
      font-size: 1.2em;
