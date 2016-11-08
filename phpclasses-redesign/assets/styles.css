@@ -8,8 +8,9 @@ html, body {
      background-color: #4F5B93;
      color: black;
      font-family: 'Open Sans', sans-serif, arial, helvetica;
-     height: 100%;
+     /*height: 100%;*/
      margin: 0px;
+     overflow-x: auto;
 }
 
 a:link, a:active {
@@ -281,10 +282,12 @@ td > a > span, #reputation-button  {
 
 #recommendpage {
      background-color: #FCFCFC;
-     border: 1px solid #ccc;
+     border: 2px solid #ccc;
+     border-top: 0px;
      float: right;
-     margin: 0px 300px 10px 0px;
-     border-radius: 0px 0px 10px 10px;
+     border-right: 0px;
+     border-radius: 5px 0px 0px 5px;
+     margin-bottom: 10px !important;
 }
 
 #recommendpage #recommendpagecontainer {
@@ -532,7 +535,6 @@ td > a > span, #reputation-button  {
 
 .userInfoTable {
      border: 1px solid #f6f6f6;
-     margin-left: 10px;
      padding: 20px;
 }
 
